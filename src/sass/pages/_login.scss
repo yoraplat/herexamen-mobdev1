@@ -1,0 +1,48 @@
+.full {
+    background-color: $color1;
+}
+
+.login {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.login input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid $color2;
+    color: $color2;
+    font-size: 1.4em;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: $color2;
+}
+
+.login a {
+    color: $color2;
+    background-color: $color1;
+    border: 2px solid $color2;
+    font-size: 1.4em;
+    padding: 5px 8px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.login p {
+    color: $color2;
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 22px;
+}
+
+.login span {
+    text-decoration: underline;
+}

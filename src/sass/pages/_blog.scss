@@ -1,0 +1,21 @@
+.leesMeerBtn {
+    text-decoration: none;
+    color: black;
+    background-color: $color2;
+    border: 2px solid black;
+    font-family: sans-serif;
+    padding: 5px 8px;
+}
+
+.back {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    a {
+        text-decoration: none;
+        font-size: 3em;
+        color: $color1;
+    }
+}

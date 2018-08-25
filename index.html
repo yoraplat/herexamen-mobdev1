@@ -1,0 +1,63 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <script src="dist/js/handlebars.min-latest.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/home">
+                        <i class="fa fa-list-ul"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="/blog">
+                        <i class="fa fa-comment-alt"></i>
+                    </a>
+                </li>
+                <li id="userState">
+                    <a href="/login">
+                        <i class="fa fa-sign-in-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="articleData">
+            <a href="/info" id="infoBtn"><i class="far fa-question-circle"></i></a>
+        </div>
+
+    </main>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <!---->
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDPb18B0Yr0LebSLfosxK8Vli-BH9_aFUA",
+            authDomain: "mobdev1-herexamen.firebaseapp.com",
+            databaseURL: "https://mobdev1-herexamen.firebaseio.com",
+            projectId: "mobdev1-herexamen",
+            storageBucket: "mobdev1-herexamen.appspot.com",
+            messagingSenderId: "106057159368"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="dist/app.js"></script>
+</body>
+
+</html>

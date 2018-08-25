@@ -1,0 +1,36 @@
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.views {
+    float: right;
+    color: $color5;
+    li {
+        display: inline-block;
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+
+.actions li {
+    text-align: center;
+    font-size: 2em;
+}
+
+.shareBtn a {
+    color: $color1;
+}
+
+.likeBtn a {
+    color: $color3;
+}
+
+.favoriteBtn a {
+    color: $color4;
+}

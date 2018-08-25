@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.full {
+  background-color: #9ec8f2;
+}
+
+.login {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-top: 30px;
+}
+
+.login input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #e7f3ff;
+  color: #e7f3ff;
+  font-size: 1.4em;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+::placeholder {
+  color: #e7f3ff;
+}
+
+.login a {
+  color: #e7f3ff;
+  background-color: #9ec8f2;
+  border: 2px solid #e7f3ff;
+  font-size: 1.4em;
+  padding: 5px 8px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.login p {
+  color: #e7f3ff;
+  font-family: sans-serif;
+  margin-top: 30px;
+  line-height: 22px;
+}
+
+.login span {
+  text-decoration: underline;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.views {
+  float: right;
+  color: #cfcfcf;
+}
+.views li {
+  display: inline-block;
+}
+.views li i {
+  margin-right: 5px;
+}
+
+.actions li {
+  text-align: center;
+  font-size: 2em;
+}
+
+.shareBtn a {
+  color: #9ec8f2;
+}
+
+.likeBtn a {
+  color: #ff8686;
+}
+
+.favoriteBtn a {
+  color: #ffb24f;
+}
+
+.leesMeerBtn {
+  text-decoration: none;
+  color: black;
+  background-color: #e7f3ff;
+  border: 2px solid black;
+  font-family: sans-serif;
+  padding: 5px 8px;
+}
+
+.back {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.back a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #9ec8f2;
+}
+
+.socialMedia {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 35px;
+}
+.socialMedia li {
+  display: inline-block;
+  color: white;
+}
+.socialMedia li i {
+  font-size: 5em;
+}
+
+.traject {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  margin-top: 50px;
+}
+.traject li {
+  color: #e7f3ff;
+  background-color: #9ec8f2;
+  border: 2px solid #e7f3ff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 5px 8px;
+  margin-top: 15px;
+}
+
+.contact {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 25px;
+}
+.contact li {
+  font-family: sans-serif;
+  color: white;
+  line-height: 20px;
+  font-size: 0.9em;
+}
+
+li a {
+  text-decoration: none;
+  color: #e7f3ff;
+}
+
+body {
+  background-color: #e7f3ff;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 80px;
+}
+
+article h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px 0px 10px 0px;
+  font-family: sans-serif;
+}
+
+article img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+article p {
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  line-height: 21px;
+}
+
+hr {
+  border-style: dashed;
+  margin: 20px 0px;
+}
+
+article li {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9em;
+  line-height: 18px;
+}
+
+#infoBtn {
+  position: fixed;
+  margin-left: 80%;
+  margin-top: 140%;
+  color: steelblue;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+#infoBtn i {
+  color: steelblue;
+}
+
+.author {
+  margin-bottom: 30px;
+}
+
+header .fa {
+  color: #e7f3ff;
+  font-size: 2em;
+}
+
+header nav {
+  margin: 0px 5%;
+}
+
+header {
+  background-color: #9ec8f2;
+  position: fixed;
+  width: 100%;
+  margin-top: -80px;
+}
+
+header nav ul {
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  max-width: 100%;
+}
+
+.text {
+  font-family: sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,54 @@
+`
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+    <header>
+            <nav>
+                    <ul>
+                        <li><i class="fa fa-list-ul"></i></li>
+                        <li><i class="fa fa-comment-alt"></i></li>
+                        <li><i class="fa fa-sign-in-alt"></i></li>
+                    </ul>
+                </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>${data[id].title}</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ipsam aliquid blanditiis perferendis! Unde asperiores tempore sed explicabo libero, maiores cum ex nobis veniam placeat nisi? Perspiciatis nemo magnam expedita!</p>
+            <img src="https://www.gdm.gent/trots/assets/projects/kinderboerderij/1.logo.jpg" alt="">
+            <img src="https://www.gdm.gent/trots/assets/projects/kinderboerderij/2.uitleglogo.jpg" alt="">
+            <img src="https://www.gdm.gent/trots/assets/projects/kinderboerderij/3.illustraties.jpg" alt="">
+            <img src="https://www.gdm.gent/trots/assets/projects/kinderboerderij/5.schetsposter.jpg" alt="">
+
+            <ul class="author">
+                <li>Jules van rijselberger</li>
+                <li>Crosdfsdf</li>
+                <li>dsfger</li>
+                <li>
+                    3dejaar
+                    <ul class="views">
+                        <li><i class="far fa-eye"></i>55</li>
+                        <li><i class="far fa-heart"></i>55</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+        <ul class="actions">
+            <li class="shareBtn"><i class="fas fa-share-alt"></i></li>
+            <li class="likeBtn"><i class="fas fa-heart"></i></li>
+            <li class="favoriteBtn"><i class="fas fa-star"></i></li>
+        </ul>
+    </main>
+    <script src="../app.js"></script>
+</body>
+</html>
+`

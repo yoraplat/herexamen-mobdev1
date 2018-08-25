@@ -1,0 +1,57 @@
+body {
+    background-color: $color2;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 80px; 
+}
+
+article h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0px 10px 0px;
+    font-family: sans-serif;
+}
+
+article img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+article p {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+
+hr {
+    border-style: dashed;
+    margin: 20px 0px;
+}
+
+article li {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    line-height: 18px;
+}
+
+#infoBtn {
+    position: fixed;
+    margin-left: 80%;
+    margin-top: 140%;
+    color: steelblue;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+#infoBtn i {
+    color: steelblue;
+}
+
+.author {
+    margin-bottom: 30px;
+}
+
