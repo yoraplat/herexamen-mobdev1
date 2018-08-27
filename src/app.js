@@ -385,7 +385,6 @@ function postRegister() {
 
       // Save user data
 
-      console.log(database.ref('users/koen'));
 
       //window.location.pathname = '/';
     });
@@ -414,6 +413,8 @@ function getProfile() {
   }
   client.send();
 }
+
+
 
 function postLogin() {
 
@@ -449,6 +450,7 @@ function getInfo() {
 
 function logout() {
   firebase.auth().signOut();
+  
 }
 
 // check user state for page permission
